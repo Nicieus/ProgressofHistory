@@ -1,0 +1,360 @@
+#
+# remember to add graphics for relevant ones when you add to this
+#
+# if a modifier is scaled, its multiplied with development in the province.
+
+#######################################
+# Legalism.  
+# 
+# Most in the old world start with it.
+#######################################
+#
+#legalism = {
+#	penalty = 0.35
+#	bonus = {
+#		max_states = 1
+#	}
+#
+#
+#	history = {
+#		is_year = 1000
+#		NOT = {
+#			province_id = 2214 #Golestan
+#		}
+#		NOT = { owned_by = YEN }
+#		NOT = { owned_by = CHG }
+#		NOT = { owned_by = YUA }
+#		NOT = { culture_group = altaic }	
+#		NOT =  { culture_group = tungusic }	
+#		NOT = { culture_group = tartar_group } 
+#		NOT = { culture = dagestani }
+#		NOT = { culture = circassian }
+#		OR = {
+#			AND = { #If this is changed costs for Nation Designer may also need to be changed.
+#				OR = {
+#					continent = new_world
+#					continent = north_america
+#					continent = south_america
+#					continent = oceania
+#				}
+#				owner = {
+#					is_playing_custom_nation = yes
+#					OR = {
+#						technology_group = western
+#						technology_group = eastern
+#						technology_group = turkishtech
+#						technology_group = muslim
+#						technology_group = indian
+#						technology_group = chinese
+#						#technology_group = high_american #Is listed below as High Americans get it regardless of if Nation Designer is used.
+#					}
+#				}
+#			}
+#			culture = persian
+#			culture = azerbadjani
+#			culture = kurdish
+#			culture = owm_armenian
+#			culture = ge_armenian
+#			culture = tabari
+#			culture = bahrani
+#			culture = omani
+#			culture = hadhrami
+#			culture = yemeni
+#			culture = hejazi
+#			culture_group = turko_byzantine
+#			culture_group = dravidian
+#			culture_group = tungusic
+#			culture_group = chinese_group
+#			culture_group = east_slavic
+#			culture_group = eastern_aryan
+#			culture_group = japanese
+#			culture_group = korean_group
+#			culture_group = swedish_group
+#			culture_group = nord_germanic
+#			culture_group = west_slavic
+#			culture_group = assamese_group
+##			province_id = 383
+##			province_id = 412
+##			province_id = 2327
+##			province_id = 2329
+##			province_id = 2331
+##			province_id = 2999
+#			region = horn_of_africa_region
+#
+#			AND = {
+#				culture = egyptian
+#				NOT = { area = libyan_desert_area }
+#				NOT = { area = cyrenaica_area }
+#			}
+#			AND = {
+#				culture_group = hindusthani
+#				NOT = { owner = { government = tribal_monarchy } } #Ladakh
+#			}
+#			owner = { technology_group = high_american }
+#			owner = { technology_group = high_sub_saharan }
+#			owner = {
+#				NOT = {
+#					government = siberian_native_council
+#					government = steppe_horde
+#					government = tribal_monarchy
+#					government = tribal_republic
+#					primary_culture = bedouin
+#					primary_culture = uyghur
+#					technology_group = andean
+#					technology_group = mesoamerican
+#					technology_group = north_american
+#					technology_group = south_american
+#					technology_group = sub_saharan
+#				}
+#			}
+#			AND = {
+#				is_year = 1600
+#				owner = {
+#					NOT = { government = siberian_native_council }
+#					NOT = { government = steppe_horde }
+#					NOT = { government = tribal_republic }
+#					NOT = { government = native_council }
+#					NOT = { government = tribal_monarchy }
+#				}
+#			}
+#			is_year = 1700
+#		}
+#	}
+#	
+#	# no need for events, as its there from the start.
+#	#can_start = {	is_year = 1000	}
+#	#start_chance = 100
+#	#on_start = institution_events.1
+#
+#	can_embrace = {
+#		always = yes
+#	}
+#
+#	embracement_speed = {
+#		modifier = {
+#			factor = -2.2
+#			scale = no
+#			potential = {
+#				NOT = { province_trade_power = 0.5 }
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = UNDER_0_5_TRADE_POWER
+#				NOT = { province_trade_power = 0.5 }
+#			}
+#		}
+#		modifier = {
+#			factor = -1.0
+#			scale = no
+#			potential = {
+#				province_trade_power = 0.5
+#				NOT = { province_trade_power = 3 }
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = UNDER_3_TRADE_POWER
+#				province_trade_power = 0.5
+#				NOT = { province_trade_power = 3 }
+#			}
+#		}
+#		modifier = {
+#			factor = -0.5
+#			scale = no
+#			potential = {
+#				province_trade_power = 3
+#				NOT = { province_trade_power = 8 }
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = UNDER_8_TRADE_POWER
+#				province_trade_power = 3
+#				NOT = { province_trade_power = 8 }
+#			}
+#		}
+#
+#		# Province to Province Spread
+#		modifier = {
+#			factor = 1.2
+#			scale = no
+#			custom_trigger_tooltip = {
+#				tooltip = NEIGHBOR_HAS_LEGALISM
+#				OR = {
+#					any_neighbor_province = {
+#						legalism = 100
+#					}
+#					any_friendly_coast_border_province = {
+#						legalism = 100
+#					}
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 1.2
+#			scale = no
+#			potential = {
+#				owner = {
+#					has_institution = legalism
+#				}
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_legalism_embraced
+#				owner = {
+#					has_institution = legalism
+#				}
+#				OR = {
+#					any_neighbor_province = {
+#						legalism = 100
+#					}
+#					any_friendly_coast_border_province = {
+#						legalism = 100
+#					}
+#				}
+#			}
+#		}
+#		
+#		# Art Center Reinvents Institution
+##		modifier = {
+##			factor = 2.0
+##			scale = no
+##			potential = {
+##				has_province_flag = institution_reinvention_legalism_5
+##				has_province_flag = has_art_center_modifier
+##			}
+##			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_REINVENT always = yes }
+##		}
+#		
+#		# Art Center Transmits Institution
+#		modifier = {
+#			factor = 1.8
+#			scale = no
+#			potential = {
+#				has_province_flag = institution_legalism_spread_1
+#				has_province_flag = has_art_center_modifier
+#			}
+#			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_SPREAD always = yes }
+#		}
+#		modifier = {
+#			factor = 1.5
+#			scale = no
+#			potential = {
+#				has_province_flag = institution_legalism_spread_2
+#				has_province_flag = has_art_center_modifier
+#			}
+#			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_SPREAD always = yes }
+#		}
+#		modifier = {
+#			factor = 1.2
+#			scale = no
+#			potential = {
+#				has_province_flag = institution_legalism_spread_3
+#				has_province_flag = has_art_center_modifier
+#			}
+#			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_SPREAD always = yes }
+#		}
+#		modifier = {
+#			factor = 0.9
+#			scale = no
+#			potential = {
+#				has_province_flag = institution_legalism_spread_4
+#				has_province_flag = has_art_center_modifier
+#			}
+#			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_SPREAD always = yes }
+#		}
+#		modifier = {
+#			factor = 0.6
+#			scale = no
+#			potential = {
+#				has_province_flag = institution_legalism_spread_5
+#				has_province_flag = has_art_center_modifier
+#			}
+#			custom_trigger_tooltip = { tooltip = ART_CENTER_INSTITUTION_SPREAD always = yes }
+#		}
+#		
+#		# Center of Trade Spread
+#		modifier = {
+#			factor = 0.9
+#			scale = no
+#			potential = {
+#				has_province_modifier = dominant_center_of_trade
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_legalism_trade_dominant
+#				has_province_modifier = dominant_center_of_trade
+#				any_country = {
+#					exists = yes
+#					has_institution = legalism
+#					ROOT = {
+#						trade_share = {
+#							country = PREV
+#							share = 2.5
+#						}
+#					}
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 0.9
+#			scale = no
+#			potential = {
+#				has_province_modifier = major_center_of_trade
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_legalism_trade_major
+#				has_province_modifier = major_center_of_trade
+#				any_country = {
+#					exists = yes
+#					has_institution = legalism
+#					ROOT = {
+#						trade_share = {
+#							country = PREV
+#							share = 5
+#						}
+#					}
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 0.9
+#			scale = no
+#			potential = {
+#				has_province_modifier = important_center_of_trade
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_legalism_trade_important
+#				has_province_modifier = important_center_of_trade
+#				any_country = {
+#					exists = yes
+#					has_institution = legalism
+#					ROOT = {
+#						trade_share = {
+#							country = PREV
+#							share = 7.5
+#						}
+#					}
+#				}
+#			}
+#		}
+#		modifier = {
+#			factor = 0.9
+#			scale = no
+#			potential = {
+#				has_province_modifier = minor_center_of_trade
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = tooltip_legalism_trade_minor
+#				has_province_modifier = minor_center_of_trade
+#				any_country = {
+#					has_institution = legalism
+#					ROOT = {
+#						trade_share = {
+#							country = PREV
+#							share = 10
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income. (Or it has a more than long term goal...)
+#		factor = 24
+#	}
+#}
+#

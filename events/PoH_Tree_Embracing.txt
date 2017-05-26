@@ -1,0 +1,29 @@
+#Kelait
+
+namespace = PoH_Tree_Embracing
+
+country_event = {
+	id = PoH_Tree_Embracing.evt_inst_Weapons1
+	title = PoH_Tree_Embracing.evt_inst_Start.t
+	desc = PoH_Tree_Embracing.evt_inst_Start.d
+	
+	picture = PAINTER_ARTIST_eventPicture #changelater
+	
+	is_triggered_only = yes
+	
+	trigger  = {
+		always = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = PoH_Tree_Embracing.evt_inst_Start.a
+		custom_tooltip = PoH_Tree_Embracing.evt_inst_Start.tt
+		hidden_effect = {
+			
+		}
+	}
+}
