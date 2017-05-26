@@ -756,3 +756,1084 @@ inst_Tactics10 = {
 	}
 	
 }
+
+inst_Politics1 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics2 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics3 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics4 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics5 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics6 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics7 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics7 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics8 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics9 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Politics10 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic1 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic2 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic3 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic4 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic5 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic6 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic7 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic8 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic9 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Economic10 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences1 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences2 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences3 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences4 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences5 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences6 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences7 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences8 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
+inst_Sciences9 = {
+	#penalty = 0.00
+	bonus = {
+		mod_PoH_Start
+	}
+	history = {
+		is_year = 1
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	#No need for this due to alternative handling for start and embracement.
+	#can_start = {	is_year = 1	}
+	#start_chance = 100
+	#on_start = institution_events.1
+	
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			potential = {
+				always = yes
+			}
+			#custom_trigger_tooltip = { something later }
+		}
+	
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+}
+
